@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+}
+
+.container {
+    max-width: 25rem;
+    min-height: 40rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #282828;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    font-size: 1rem;
+    color: #b3ff00;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.bio {
+    font-size: 0.875rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.social-links a {
+    display: block;
+    font-weight: 450;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #5b5a5a;
+    padding: 0.7rem 5.5rem;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    background-color: #b3ff00;
+    color: #000;
+    cursor: pointer;
+    font-weight: 450;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #aaa;
+}
