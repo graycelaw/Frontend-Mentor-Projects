@@ -17,7 +17,7 @@ Build an omelette recipe with HTML and CSS
 
 ### Links
 
-- Live Site URL: ![View Live Site](https://graycelaw.github.io/Frontend-Mentor-Projects/Recipe/index.html)
+- Live Site URL: [View Live Site](https://graycelaw.github.io/Frontend-Mentor-Projects/Recipe/index.html)
 
 
 ## Author
