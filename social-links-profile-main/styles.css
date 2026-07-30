@@ -19,6 +19,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: #282828;
+    border-radius: 1rem;
 }
 
 header {
@@ -47,7 +48,7 @@ header {
 
 .bio {
     font-size: 0.875rem;
-    color: #aaa;
+    color: #e1dfdf;
     margin-bottom: 2rem;
 }
 
@@ -60,12 +61,12 @@ header {
 
 .social-links a {
     display: block;
-    font-weight: 450;
+    font-weight: 500;
     margin-bottom: 0.5rem;
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    background-color: #5b5a5a;
+    background-color: #494848;
     padding: 0.7rem 5.5rem;
     border-radius: 0.5rem;
 }
@@ -74,11 +75,11 @@ a:hover {
     background-color: #b3ff00;
     color: #000;
     cursor: pointer;
-    font-weight: 450;
+    font-weight: 500;
 }
 
 .attribution {
     text-align: center;
     font-size: 0.75rem;
-    color: #aaa;
+    color: #e1dfdf;
 }
