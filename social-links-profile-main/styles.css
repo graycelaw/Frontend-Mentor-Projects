@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #000;
+    background-color: #141414;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #282828;
+    background-color: #1f1f1f;
     border-radius: 1rem;
 }
 
@@ -41,7 +41,7 @@ header {
 
 .location {
     font-size: 1rem;
-    color: #b3ff00;
+    color: #c5f82a;
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
@@ -66,13 +66,13 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    background-color: #494848;
+    background-color: #333333;
     padding: 0.7rem 5.5rem;
     border-radius: 0.5rem;
 }
 
 a:hover {
-    background-color: #b3ff00;
+    background-color: #c5f82a;
     color: #000;
     cursor: pointer;
     font-weight: 500;
