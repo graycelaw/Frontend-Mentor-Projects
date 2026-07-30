@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://graycelaw.github.io/Frontend-Mentor-Projects/product-preview-card-component-main/index.html)
+- Live Site URL: [View Live Site](https://graycelaw.github.io/Frontend-Mentor-Projects/product-preview-card-component-main/index.html)
 
 ## My process
 
