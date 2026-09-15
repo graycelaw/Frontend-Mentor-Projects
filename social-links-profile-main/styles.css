@@ -50,6 +50,7 @@ header {
     font-size: 0.875rem;
     color: #e1dfdf;
     margin-bottom: 2rem;
+    font-weight: 450;
 }
 
 .social-links {
@@ -57,11 +58,12 @@ header {
     flex-direction: column;
     gap: 0.25rem;
     margin-bottom: 2rem;
+    margin: 1rem auto;
 }
 
 .social-links a {
     display: block;
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 0.5rem;
     color: #fff;
     text-decoration: none;
@@ -82,4 +84,55 @@ a:hover {
     text-align: center;
     font-size: 0.75rem;
     color: #e1dfdf;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+
+    .header {
+        margin-top: 1rem;
+    }
+
+    .container {
+        max-width: 20rem;
+    }
+
+    .profile-img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .profile h1 {
+        font-size: 1.5rem;
+    }
+
+    .location {
+        font-size: 0.8rem;
+    }
+
+    .social-links {
+        margin-bottom: 1rem;
+    }
+
+    .social-links a {
+        padding: 0.7rem 4.5rem;
+    }
+}
+
+@media (max-width: 349px) {
+    .container {
+        max-width: 17.76rem;
+    }
+
+    .bio {
+        font-size: 0.8rem;
+    }
+
+    .social-links {
+        margin-bottom: 0.6rem;
+    }
+
+    .social-links a {
+        padding: 0.6rem 4rem;
+    }
 }
