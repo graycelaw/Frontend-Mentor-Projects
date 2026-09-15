@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 25rem;
+    max-width: 26rem;
     min-height: 40rem;
     margin: 10rem auto;
     display: flex;
@@ -23,11 +23,16 @@ body {
 }
 
 header {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    flex: 1;
+}
+
+.profile {
+    flex: 1;
 }
 
 .profile-img {
-    width: 10rem;
+    width: 100%;
     height: 10rem;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -47,29 +52,29 @@ header {
 }
 
 .bio {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: #e1dfdf;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 450;
 }
 
 .social-links {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-    margin-bottom: 2rem;
-    margin: 1rem auto;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
 }
 
 .social-links a {
     display: block;
     font-weight: 550;
-    margin-bottom: 0.5rem;
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
     background-color: #333333;
-    padding: 0.7rem 5.5rem;
+    padding: 1rem 7rem;
     border-radius: 0.5rem;
 }
 
@@ -87,52 +92,80 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 576px) {
-
-    .header {
-        margin-top: 1rem;
-    }
+@media (max-width: 485px) {
 
     .container {
-        max-width: 20rem;
+        width: 23rem;
     }
 
     .profile-img {
-        width: 7rem;
-        height: 7rem;
+        height: 8rem;
     }
 
     .profile h1 {
         font-size: 1.5rem;
     }
 
-    .location {
-        font-size: 0.8rem;
-    }
-
-    .social-links {
-        margin-bottom: 1rem;
-    }
-
     .social-links a {
-        padding: 0.7rem 4.5rem;
-    }
-}
-
-@media (max-width: 349px) {
-    .container {
-        max-width: 17.76rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
 
     .bio {
-        font-size: 0.8rem;
+        font-size: 0.877rem;
     }
+}
 
-    .social-links {
-        margin-bottom: 0.6rem;
+@media (max-width: 420px) {
+    .container {
+        width: 22rem;
     }
 
     .social-links a {
-        padding: 0.6rem 4rem;
+        padding-left: 5.5rem;
+        padding-right: 5.5rem;
+    }
+
+    .bio {
+        font-size: 0.876rem;
+    }
+}
+
+@media (max-width: 385px) {
+    .container {
+        width: 20rem;
+    }
+
+    .social-links a {
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+    }
+
+    .profile-img {
+        height: 6rem;
+    }
+
+    .profile h2 {
+        font-size: 1.2rem;
+    }
+
+    .location {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .container {
+        width: 17rem;
+    }
+
+    .social-links a {
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    .bio {
+        font-size: 0.75rem;
     }
 }
