@@ -9,3 +9,5 @@ This repository is dedicated soley to projects created as part of Frontend Mento
 - [Omelette Recipe](https://graycelaw.github.io/Frontend-Mentor-Projects/Recipe/index.html)
 
 - [Product preview card component](https://graycelaw.github.io/Frontend-Mentor-Projects/product-preview-card-component-main/index.html)
+
+- [Social links profile](https://frontend-mentor-projects-social-lin-theta.vercel.app/)
