@@ -92,10 +92,10 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 485px) {
+@media (max-width: 576px) {
 
     .container {
-        width: 23rem;
+        margin: 2rem;
     }
 
     .profile-img {
@@ -106,19 +106,15 @@ a:hover {
         font-size: 1.5rem;
     }
 
-    .social-links a {
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-
     .bio {
         font-size: 0.877rem;
     }
 }
 
-@media (max-width: 420px) {
-    .container {
-        width: 22rem;
+@media (max-width: 450px) {
+
+    .profile-img {
+        height: 7rem;
     }
 
     .social-links a {
@@ -131,41 +127,35 @@ a:hover {
     }
 }
 
-@media (max-width: 385px) {
-    .container {
-        width: 20rem;
-    }
-
+@media (max-width: 415px) {
     .social-links a {
-        padding-left: 4.5rem;
-        padding-right: 4.5rem;
-    }
-
-    .profile-img {
-        height: 6rem;
-    }
-
-    .profile h2 {
-        font-size: 1.2rem;
-    }
-
-    .location {
-        font-size: 0.9rem;
-    }
-
-}
-
-@media (max-width: 330px) {
-    .container {
-        width: 17rem;
-    }
-
-    .social-links a {
-        padding-left: 3.2rem;
-        padding-right: 3.2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .bio {
-        font-size: 0.75rem;
+        font-size: 0.79rem;
+    }
+}
+
+@media (max-width: 365px) {
+    .social-links a {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
+    .bio {
+        font-size: 0.74rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .social-links a {
+        padding-left: 2.7rem;
+        padding-right: 2.7rem;
+    }
+
+    .bio {
+        font-size: 0.69rem;
     }
 }
