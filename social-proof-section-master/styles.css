@@ -9,15 +9,17 @@ body {
 }
 
 .container {
-    margin: 18rem auto;
+    margin: 5rem auto;
     background-color: #ffffff;
     max-width: 50rem;
 }
 
+/* product reviews */
+
 .product-reviews {
     display: flex;
-    margin: 2rem;
-    gap: 5rem;
+    margin: 1rem;
+    gap: 6rem;
 }
 
 .heading {
@@ -30,10 +32,12 @@ body {
 .what-we-do {
     color: #937b92;
     font-size: 0.7rem;
-    line-height: 1.2;
-    max-width: 16rem;
+    line-height: 1.5;
+    max-width: 17rem;
     font-weight: 500;
 }
+
+/* star ratings */
 
 .star-ratings {
     display: flex;
@@ -58,7 +62,7 @@ body {
 .star-ratings span {
     display: inline-block;
     color: #ffa500;
-    padding-right: 1.2rem;
+    padding-right: 1.3rem;
 }
 
 .star-ratings .reviews {
@@ -86,10 +90,14 @@ body {
     display: inline;
 }
 
+/* customer testemonies */
+
 .customer-testimonies {
     display: flex;
 }
 
+
+/* Footer */
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
