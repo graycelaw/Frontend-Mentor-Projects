@@ -1,3 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan';
+}
+
+.container {
+    margin: 18rem auto;
+    background-color: #ffffff;
+    max-width: 50rem;
+}
+
+.product-reviews {
+    display: flex;
+    margin: 2rem;
+    gap: 5rem;
+}
+
+.heading {
+    color: #4f214f;
+    margin-bottom: 1rem;
+    max-width: 15rem;
+    font-weight: 700;
+}
+
+.what-we-do {
+    color: #937b92;
+    font-size: 0.7rem;
+    line-height: 1.2;
+    max-width: 16rem;
+    font-weight: 500;
+}
+
+.star-ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.star-ratings div {
+    padding: 0.8rem;
+    border: 1px solid #f7f2f7;
+    background-color: #f7f2f7;
+    border-radius: 0.4rem;
+}
+
+.star-ratings p {
+    padding-right: 1.5rem;
+    font-size: 0.8rem;
+    color: #4f214f;
+    font-weight: 700;
+}
+
+.star-ratings span {
+    display: inline-block;
+    color: #ffa500;
+    padding-right: 1.2rem;
+}
+
+.star-ratings .reviews {
+    margin-right: 5rem;
+}
+
+.star-ratings .guru {
+    margin-left: 2rem;
+    margin-right: 2.5rem;
+}
+
+.star-ratings .best-tech {
+    margin-left: 4rem;
+}
+
+.reviews p {
+    display: inline;
+}
+
+.guru p {
+    display: inline;
+}
+
+.best-tech p {
+    display: inline;
+}
+
+.customer-testimonies {
+    display: flex;
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
