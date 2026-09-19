@@ -16,9 +16,14 @@ body {
 
 /* product reviews */
 
+.about-product {
+    margin: 1.2rem;
+}
+
 .product-reviews {
     display: flex;
-    margin: 1rem;
+    justify-content: center;
+    align-items: center;
     gap: 6rem;
 }
 
@@ -66,35 +71,92 @@ body {
 }
 
 .star-ratings .reviews {
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 
 .star-ratings .guru {
     margin-left: 2rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
 }
 
 .star-ratings .best-tech {
     margin-left: 4rem;
 }
 
-.reviews p {
-    display: inline;
-}
-
-.guru p {
-    display: inline;
-}
-
+.reviews p,
+.guru p,
 .best-tech p {
     display: inline;
 }
 
-/* customer testemonies */
+/* about customers*/
+
+.about-customers {
+    margin: 1.2rem;
+}
 
 .customer-testimonies {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+
+.customer-testimonies .profile {
+    background-color: #4f214f;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.irene-content,
+.colten-content,
+.anne-content {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.consumer-info {
+    margin-top: 1rem;
+    line-height: 1.2;
+}
+
+.customer-testimonies img {
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.testimony {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+}
+
+.fullname,
+.testimony {
+    color: #f7f2f7;
+    font-weight: 450;
+}
+
+.fullname {
+    font-weight: 600;
+}
+
+.status {
+    color: #ee68a4;
+    font-weight: 450;
+}
+
+.customer-testimonies .irene-roberts {
+    margin-top: 2rem;
+}
+
+.customer-testimonies .anne-wallace {
+    margin-top: 4rem;
+}
+
 
 
 /* Footer */
